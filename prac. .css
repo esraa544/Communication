@@ -1,0 +1,318 @@
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=EB+Garamond&family=Playball&family=Goudy+Bookletter+1911&display=swap');
+/*Body*/
+body{margin: 0px}
+/*Start Header*/
+/*navbar*/
+.big{   background-image:url(img/BBA-IB.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1519px;
+}
+
+.big header{padding:10px ;
+            background-color:#0000002e;
+            position:sticky;
+            width: 1499px;
+            font-family: 'Cinzel', serif;
+            position: fixed;
+            z-index: 1000
+            }
+
+h1{ display: inline;
+    color:#e61e75;
+    font-size: 38px;
+    text-shadow: 2px 2px 1px #035a97;
+    padding-left: 11px}
+
+.big nav li{display: inline ;
+            padding: 19px;
+/*            font-size:20px;*/
+            vertical-align: middle;
+            font-size: 25px}
+.big a{ text-decoration: none;
+        color:#e61e75;
+        font-weight: 600;
+        padding: 5px;
+        text-shadow: 1px 1px 1px #7e1040}
+.big a:hover{color: #035a97;
+            text-shadow: 1px 1px 1px #0a375696}
+
+nav { float: right}
+nav ul {display: inline}
+/*Section*/
+.big section{   width: 1350px;
+                padding: 60px 0px 10px 0px;
+                position: relative;
+                left: 150px;
+/*                animation: ani 6s linear 0s*/
+                }
+.big p{ color:#e61e75;
+        font-size: 55px;
+        margin:40px 70px 0px 53px;
+        font-weight: 500;
+        padding: 3px;
+        font-family: 'EB Garamond', serif;
+        text-shadow: 1px 1px 1px #000;
+        text-shadow: -1px 3px 1px #000;
+        
+        }
+#in{animation-name: ani;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-timing-function: linear}
+
+@keyframes ani{
+    from{color:#035a97;
+        transform: rotateX(90deg)}
+    
+        
+}
+
+
+.big span{  font-family: 'Playball', cursive;
+            font-weight: 100;
+            color:#035a97;
+/*            text-shadow: none;*/
+            }
+/*button*/
+button{margin: 0px 60px 22px 50px;
+        padding: 20px 40px;
+        background-color:#0000005c;
+        font-family: 'Cinzel', serif;
+        font-size: 30px;
+        color: #035a97;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #fff;
+        border: 2px solid #035a97;
+        transition: 1s }
+button:hover {  background-color: #035a97;
+                color: #fff;
+                text-shadow: none
+}
+/*end header*/
+/*Start Service*/
+#service{margin-top: 40px}
+#service h1{color:#035a97;
+            font-family: 'Cinzel', serif;
+            text-shadow: none;
+            font-size:95px;
+            font-weight: 100}
+
+#service span{color:#e61e75;}
+#service p{ font-size: 22px;
+            width: 1000px;
+            color:#0585e1}
+/*service divs*/
+artical section{ margin: 10px;
+                display: inline;
+                box-sizing: border-box
+}
+.child{display: inline-block;
+        border: 4px double #035a97;
+        border-radius: 10px;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        height:300px;
+        transition: 1s ;
+        width: 310px;
+        margin: 10px;
+        padding: 5px;
+        background-image: url(img/shutterstock_1721264887-1536x1457.png);
+        background-size: cover
+        
+        }
+.child:hover{transform: rotateY(180deg)}
+#middle{position: relative;
+        top: 50px}
+#end {position: relative;
+        top: 21px}
+.back h3{width: auto;
+        padding: 5px;
+        text-shadow: 2px 1px 1px #4527a080;
+        color:#4527a0;
+        font-family: 'EB Garamond', serif;
+        height: 200px;
+        position: relative;
+        top:-40px;
+        font-size: 20px}
+
+.face h2{
+
+        font-size: 30px;
+        color: #4527a0
+        }
+
+.face{backface-visibility: hidden;
+        z-index: 2;
+        }
+
+.back{backface-visibility: hidden;
+        z-index: 1;
+        transform: rotateY(180deg);
+        }
+
+/*project*/
+#project h1{color:#035a97;
+            font-family: 'Cinzel', serif;
+            text-shadow: none;
+            font-size:85px;
+            font-weight: 100} 
+#project span{color:#e61e75;}
+#project {  margin-top: 60px;
+            margin-bottom: 1660px
+            }
+#project section{   width: 1240px;
+                    }
+#project div{
+            display: inline;
+            width:584px;
+            float: left;
+            padding: 5px;
+            height: 394px;
+            background-color: transparent;
+            border:3px solid #213347}
+#project h2{text-align: left;
+            color:#e61e75;
+            font-family: 'Cinzel', serif;
+            font-size: 35px}
+#project p{font-size: 25px;
+            color:#035a97;
+            text-align: left}
+.one{   float: left;
+        transition: 2s}
+.one:hover{ transform:scale(0.98,0.98);
+            }
+/*about*/
+
+#about{margin-top: 40px;
+        margin-left: 160px;
+        margin-bottom: 70px
+        
+        
+        }
+.left  {
+        display: inline}
+#about h1{ color:#035a97;
+            font-family: 'Cinzel', serif;
+            text-shadow: none;
+            font-size:55px;
+            font-weight: 100;
+            vertical-align: top;
+/*            margin-left: 40px;*/
+            margin-bottom: 0px;
+            position: relative;
+            right: 340px} 
+
+#about h3 {position: relative;
+            right: 340px;
+            color: #035197;
+            font-family: 'Cinzel', serif;
+            font-size: 20px}
+#about p {
+            color:#035a97;
+            font-family: 'Goudy Bookletter 1911', serif;
+            text-shadow: none;
+            font-size:22px;
+            font-weight: 100;
+            margin-bottom: 0px;
+            text-align: left;
+/*            margin-left: 350px;*/
+            line-height: 40px;
+            width: 710px
+            } 
+#about span{color:#e61e75;}
+
+
+
+.img {border:8px solid #e61e75;
+        display: inline-block;
+        float: left}
+
+#about img{transform: translate(33px,-28px);
+            margin-right: 0px;
+            display: inline-block}
+#about button { position: relative;
+                left: -300px;
+                background-color:#00000008;
+                color: #e61e75;
+                transition: 1s;
+                border: 2px solid #035a97;
+                box-shadow: 1px 1px 5px 1px #cccccc;}
+
+
+#about button:hover {background-color:#e61e75;
+                    color: #fff;
+                    text-shadow: none;
+                    box-shadow: 1;
+                    transform: scale(0.99,0.99);
+                    box-shadow: 1px 1px 5px 1px #e6e6e6;
+                    box-shadow: -1px 1px 5px 1px #e6e6e6;}
+/*contact*/
+#contact{margin: 10px;
+        margin-bottom: 50px}
+.small{display: inline-block;
+        border:1px solid #d9d9d9;
+        width: 300px;
+        height: 110px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px #cccccc;
+        box-shadow: -1px 1px 5px 1px #cccccc;
+        margin: 5px;
+        transition: 0.9s}
+
+.small:hover{transform: scale(0.95,0.95);
+            box-shadow: 1px 1px 5px 1px #e6e6e6;
+            box-shadow: -1px 1px 5px 1px #e6e6e6;}
+
+#contact h1{color:#035a97;
+            font-family: 'Cinzel', serif;
+            text-shadow: none;
+            font-size:65px;
+            font-weight: 100;
+            margin-bottom: 10px;
+            display: block}
+
+.icon{width: 70px ;
+        height: 80px;
+        display: inline-block;
+        float: left;
+        margin: 5px;
+        border-radius: 100}
+#contact span{color:#e61e75;}
+
+.small h4{color:#035a97;
+            text-align: left;
+            margin: 20px 35px 10px 100px}
+.small p{font-size: 18px;
+        line-height: 5px;
+        color: #999999;
+        text-align: left}
+/*footer*/
+footer{background-color:#035a97a8;}
+
+footer h1{color:#fff;
+            font-family: 'Cinzel', serif;
+            text-shadow: 3px 1px 1px #035a97;
+            font-size:30px;
+            font-weight: 100;
+            margin-bottom: 10px;
+            display: block;
+}
+
+footer span{color:#e61e75;}
+footer p{color:#fff;
+        font-size: 25px;
+        font-family: 'Goudy Bookletter 1911', serif;;
+        margin-top: 0px;
+        letter-spacing: 5px;
+        margin-bottom: 0px}
+footer img {filter: grayscale(100%);
+            transition: 1s}
+footer img:hover {filter: grayscale(0%)}
+footer h3 {color: #fff;
+            margin-top: 5px;
+            font-weight: 100;
+            font-family: 'Goudy Bookletter 1911', serif;
+            }
